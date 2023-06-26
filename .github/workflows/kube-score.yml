@@ -1,0 +1,6 @@
+jobs:
+  kube-score:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Scoring
+        run: score ./*.yaml
