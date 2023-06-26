@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Scoring
-        run: kube-score ./*.yaml
+        run: kube-score score ./*.yaml
