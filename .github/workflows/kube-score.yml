@@ -1,3 +1,10 @@
+name: Use Kube-score
+
+on:
+    push:
+      branches:
+        - main
+
 jobs:
   kube-score:
     runs-on: ubuntu-latest
