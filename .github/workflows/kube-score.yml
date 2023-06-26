@@ -14,7 +14,7 @@ jobs:
       - name: kube-score check
         uses: piraces/kube-score-ga@v0.1.3
         with:
-          manifests-folders:  'charts/grafana'
+          manifests-folders:  'charts/grafana/*.yaml'
           kube-score-version: '1.14.0'
           ignore-exit-code: 'true'
           output-file: 'result.txt'
